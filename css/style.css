@@ -139,6 +139,36 @@ h2{
 	border-bottom:2px solid orange;	
 }
 
+.types-showcase{
+	list-style:none;
+	width:100%;
+}
+
+.types-showcase li{
+	display:block;
+	float:left;
+	width:25%;
+}
+
+.types-photo{
+	
+	width:100%;
+	margin:0;
+	
+}
+
+.types-photo img{
+	width:100%;
+	height:auto;
+	transform:scale(1.15);
+	transition:transform 0.5s, opacity 0.5s;
+	margin-bottom:20px;
+}
+
+.types-photo img:hover{
+	opacity:1;
+	transform:scale(1.03);
+}
 h2:after{
 	display:block;
 	height:2px;
@@ -177,7 +207,8 @@ h3{
 }
 .describe-table {
     border-collapse: collapse;
-    margin: 25px 0;
+	margin-left: auto;
+	margin-right: auto;
 	color: black;
     font-size: 0.9em;
     font-family: sans-serif;
@@ -185,6 +216,10 @@ h3{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
+.table-head{
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
 .describe-table thead tr {
     background-color: #ffa500;
     color: #ffffff;
