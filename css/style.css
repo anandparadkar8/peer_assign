@@ -142,7 +142,7 @@ h2{
 h2:after{
 	display:block;
 	height:2px;
-	background-color:orange;
+	background-color:#ffa500;
 	content:" ";
 	width:100px;
 	margin:0 auto;
@@ -175,6 +175,46 @@ h3{
 	margin-bottom:15px;
 
 }
+.describe-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+	color: black;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.describe-table thead tr {
+    background-color: #ffa500;
+    color: #ffffff;
+    text-align: left;
+}
+
+.describe-table th,
+.describe-table td {
+    padding: 12px 15px;
+}
+
+.describe-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.describe-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.describe-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.describe-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+
 .contact-form{
 	width:60%;
 	margin:0 auto;
